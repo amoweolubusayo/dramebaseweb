@@ -479,7 +479,7 @@ export default function Home() {
                   <FaMusic />
                 </div>
 
-                <div>
+                <div className="mt-2">
                   <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">
                     What is DrameBase?
                   </h1>
@@ -497,7 +497,7 @@ export default function Home() {
                   <FaSubscript />
                 </div>
 
-                <div>
+                <div className="mt-2">
                   <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">
                     What Problem does DrameBase solve?
                   </h1>
@@ -514,7 +514,7 @@ export default function Home() {
                   <FaMoneyBillWave />
                 </div>
 
-                <div>
+                <div className="mt-2">
                   <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">
                     How do I subscribe?
                   </h1>
