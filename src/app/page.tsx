@@ -115,7 +115,7 @@
 // import { useState } from 'react'
 import { Dialog } from "@headlessui/react";
 import { FaTimesCircle, FaBars } from "react-icons/fa";
-import Image from 'next/image';
+import Image from "next/image";
 import {
   FaMusic,
   FaVideo,
@@ -126,7 +126,7 @@ import {
   FaMoneyBillWave,
   FaThumbsUp,
   FaWrench,
-  FaCaretDown
+  FaCaretDown,
 } from "react-icons/fa";
 const navigation = [
   { name: "Home", href: "#" },
@@ -162,8 +162,7 @@ const aims = [
   },
   {
     name: "Data Security",
-    description:
-      "Artists’ contents are protected from copyright infringement.",
+    description: "Artists’ contents are protected from copyright infringement.",
     icon: FaWrench,
   },
   {
@@ -196,13 +195,13 @@ const features = [
 
 const people = [
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
+    name: "Leslie Alexander",
+    role: "Co-Founder / CEO",
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   // More people...
-]
+];
 export default function Home() {
   // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -392,153 +391,197 @@ export default function Home() {
                   </dl>
                 </div>
               </div>
-             
-              <Image src="/DBTriplets.png"   alt="Product screenshot"
+
+              <Image
+                src="/DBTriplets.png"
+                alt="Product screenshot"
                 className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
                 width={2432}
                 height={1442}
-    />
+              />
             </div>
           </div>
         </div>
 
         <div className="container px-6 py-8 mx-auto">
-        <h2 className="text-2xl font-semibold text-center text-indigo-600 capitalize lg:text-3xl">Our Team</h2>
+          <h2 className="text-2xl font-semibold text-center text-indigo-600 capitalize lg:text-3xl">
+            Our Team
+          </h2>
 
-        <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div className="w-full max-w-xs text-center">
-                <img className="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=739&q=80" alt="avatar" />
+              <img
+                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=739&q=80"
+                alt="avatar"
+              />
 
-                <div className="mt-2">
-                    <h3 className="text-lg font-medium text-black">Ahmed Omer</h3>
-                    <span className="mt-1 font-medium text-black">CEO</span>
-                </div>
+              <div className="mt-2">
+                <h3 className="text-lg font-medium text-black">Ahmed Omer</h3>
+                <span className="mt-1 font-medium text-black">CEO</span>
+              </div>
             </div>
 
             <div className="w-full max-w-xs text-center">
-                <img className="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
+              <img
+                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                src="https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+                alt="avatar"
+              />
 
-                <div className="mt-2">
-                    <h3 className="text-lg font-medium text-black">Jane Doe</h3>
-                    <span className="mt-1 font-medium text-black">Co-founder</span>
-                </div>
+              <div className="mt-2">
+                <h3 className="text-lg font-medium text-black">Jane Doe</h3>
+                <span className="mt-1 font-medium text-black">Co-founder</span>
+              </div>
             </div>
 
             <div className="w-full max-w-xs text-center">
-                <img className="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80" alt="avatar" />
+              <img
+                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80"
+                alt="avatar"
+              />
 
-                <div className="mt-2">
-                    <h3 className="text-lg font-medium text-black">Steve Ben</h3>
-                    <span className="mt-1 font-medium text-black">UI/UX</span>
-                </div>
+              <div className="mt-2">
+                <h3 className="text-lg font-medium text-black">Steve Ben</h3>
+                <span className="mt-1 font-medium text-black">UI/UX</span>
+              </div>
             </div>
 
             <div className="w-full max-w-xs text-center">
-                <img className="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
+              <img
+                className="object-cover object-center w-full h-48 mx-auto rounded-lg"
+                src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+                alt="avatar"
+              />
 
-                <div className="mt-2">
-                    <h3 className="text-lg font-medium text-black ">Patterson Johnson</h3>
-                    <span className="mt-1 font-medium text-black">Software Engineer</span>
-                </div>
+              <div className="mt-2">
+                <h3 className="text-lg font-medium text-black ">
+                  Patterson Johnson
+                </h3>
+                <span className="mt-1 font-medium text-black">
+                  Software Engineer
+                </span>
+              </div>
             </div>
+          </div>
         </div>
 
-        
-    </div>
+        <section className="bg-white">
+          <div className="container px-6 py-12 mx-auto">
+            <h1 className="text-2xl font-semibold lg:text-3xl text-indigo-600">
+              Frequently asked questions.
+            </h1>
 
-
-    <section className="bg-white">
-    <div className="container px-6 py-12 mx-auto">
-        <h1 className="text-2xl font-semibold lg:text-3xl text-indigo-600">Frequently asked questions.</h1>
-
-        <div className="grid grid-cols-1 gap-8 mt-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">
-            <div>
-                <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
-                   <FaMusic/>
+            <div className="grid grid-cols-1 gap-8 mt-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">
+              <div>
+                <div className="inline-block p-3 text-white bg-indigo-600 rounded-lg">
+                  <FaMusic />
                 </div>
 
                 <div>
-                    <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">What is DrameBase?</h1>
+                  <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">
+                    What is DrameBase?
+                  </h1>
 
-                    <p className="mt-2 text-sm text-black">
-                      DrameBase is a decentralized media streaming platform. It uses blockchain InterPlanetary File Systems (IPFS) technology to distribute media content.
-                    </p>
+                  <p className="mt-2 text-sm text-black">
+                    DrameBase is a decentralized media streaming platform. It
+                    uses blockchain InterPlanetary File Systems (IPFS)
+                    technology to distribute media content.
+                  </p>
                 </div>
-            </div>
+              </div>
 
-            <div>
-                <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
-                  <FaSubscript/>
-                </div>
-
-                <div>
-                    <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">What Problem does DrameBase solve?</h1>
-
-                    <p className="mt-2 text-sm text-black">
-                    It solves the royalty payment transparency issues and data infringement issues.
-                    </p>
-                </div>
-            </div>
-
-            <div>
-                <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
-                   <FaMoneyBillWave/>
+              <div>
+                <div className="inline-block p-3 text-white bg-indigo-600 rounded-lg">
+                  <FaSubscript />
                 </div>
 
                 <div>
-                    <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">How do I subscribe?</h1>
+                  <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">
+                    What Problem does DrameBase solve?
+                  </h1>
 
-                    <p className="mt-2 text-sm text-black">
-                    You can subscribe using your local currency, which the equivalent token will be credited into your fan account.
-                    </p>
+                  <p className="mt-2 text-sm text-black">
+                    It solves the royalty payment transparency issues and data
+                    infringement issues.
+                  </p>
                 </div>
-            </div>
+              </div>
 
-            <div>
-                <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
-                   <FaTimesCircle/>
-                </div>
-
-                <div>
-                    <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">Do I need knowledge of blockchain to use DrameBase?</h1>
-
-                    <p className="mt-2 text-sm text-black">
-                    DrameBase User-Interface will be built such that anyone who can operate a smartphone can use the platform.
-                    </p>
-                </div>
-            </div>
-
-            <div>
-                <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
-                   <FaVideo/>
+              <div>
+                <div className="inline-block p-3 text-white bg-indigo-600 rounded-lg">
+                  <FaMoneyBillWave />
                 </div>
 
                 <div>
-                    <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">Why is DrameBase better than other traditional streaming platforms?</h1>
+                  <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">
+                    How do I subscribe?
+                  </h1>
 
-                    <p className="mt-2 text-sm text-black">
-                    DrameBases uses Blockchain, its shared ledger approach, improves the media supply chain, and decreases copyright infringements by adding transparency, security, and control.
-                    </p>
+                  <p className="mt-2 text-sm text-black">
+                    You can subscribe using your local currency, which the
+                    equivalent token will be credited into your fan account.
+                  </p>
                 </div>
+              </div>
+
+              <div>
+                <div className="inline-block p-3 text-white bg-indigo-600 rounded-lg mt-4">
+                  <FaTimesCircle />
+                </div>
+
+                <div className="mt-2">
+                  <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">
+                    Do I need knowledge of blockchain to use DrameBase?
+                  </h1>
+
+                  <p className="mt-2 text-sm text-black">
+                    DrameBase User-Interface will be built such that anyone who
+                    can operate a smartphone can use the platform.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div className="inline-block p-3 text-white bg-indigo-600 rounded-lg mt-4">
+                  <FaVideo />
+                </div>
+
+                <div className="mt-2">
+                  <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">
+                    Why is DrameBase better than other traditional streaming
+                    platforms?
+                  </h1>
+
+                  <p className="mt-2 text-sm text-black">
+                    DrameBases uses Blockchain, its shared ledger approach,
+                    improves the media supply chain, and decreases copyright
+                    infringements by adding transparency, security, and control.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div className="inline-block p-3 text-white bg-indigo-600 rounded-lg mt-4">
+                  <FaThumbsUp />
+                </div>
+
+                <div className="mt-2">
+                  <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">
+                    Can I stream all artists?
+                  </h1>
+
+                  <p className="mt-2 text-sm text-black">
+                    This is a new technology and access is needed to the artists
+                    or record labels. We would start with African artists and
+                    later on to the other artists in the world.
+                  </p>
+                </div>
+              </div>
             </div>
-
-            <div>
-                <div className="inline-block p-3 text-white bg-blue-600 rounded-lg">
-                   <FaThumbsUp/>
-                </div>
-
-                <div>
-                    <h1 className="text-xl font-semibold text-gray-700 text-indigo-600">What are the parking and public transport options?</h1>
-
-                    <p className="mt-2 text-sm text-black">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
+          </div>
+        </section>
       </div>
     </div>
   );
