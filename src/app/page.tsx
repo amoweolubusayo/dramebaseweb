@@ -470,9 +470,11 @@ export default function Home() {
         <section className="bg-white">
           <div className="container px-6 py-12 mx-auto">
             <h1 className="text-2xl font-semibold lg:text-3xl text-indigo-600">
-              Frequently asked questions.
+              Frequently asked questions
             </h1>
-
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              We have answered some questions for you
+            </p>
             <div className="grid grid-cols-1 gap-8 mt-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">
               <div>
                 <div className="inline-block p-3 text-white bg-indigo-600 rounded-lg">
